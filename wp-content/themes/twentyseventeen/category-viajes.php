@@ -23,7 +23,7 @@ get_header(); ?>
 		</header><!-- .page-header -->
 	<?php endif; ?>
 
-	<div id="primary" class="content-area">
+	<div id="primary" class="content-area viajes">
 		<main id="main" class="site-main" role="main">
 
 		<?php
