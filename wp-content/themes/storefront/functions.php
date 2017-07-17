@@ -1,4 +1,4 @@
-<?php
+	<?php
 /**
  * Storefront engine room
  *
@@ -67,3 +67,11 @@ if ( version_compare( get_bloginfo( 'version' ), '4.7.3', '>=' ) && ( is_admin()
  * Note: Do not add any custom code here. Please use a custom plugin so that your customizations aren't lost during updates.
  * https://github.com/woocommerce/theme-customisations
  */
+
+
+if ( ! function_exists( 'hello_js' ) ) :
+	function hello_js() {
+		wp_enqueue_script( 'hello_js', get_template_directory_uri() . '/assets/js/hello.js', array('jquery'), '', true );
+	}
+endif;
+add_action( 'wp_enqueue_scripts', 'hello_js' );
