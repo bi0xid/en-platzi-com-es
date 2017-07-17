@@ -4280,3 +4280,9 @@ object {
 		padding: 0;
 	}
 }
+
+/* CUSTOM */
+
+.viajes {
+  background:url('https://image.flaticon.com/icons/png/128/59/59919.png') no-repeat top right;
+}
