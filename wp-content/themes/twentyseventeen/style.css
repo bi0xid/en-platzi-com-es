@@ -4283,6 +4283,6 @@ object {
 
 /* CUSTOM */
 
-.viajes {
+.viajes, .category-viajes {
   background:url('https://image.flaticon.com/icons/png/128/59/59919.png') no-repeat top right;
 }
